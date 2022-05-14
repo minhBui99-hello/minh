@@ -1,0 +1,60 @@
+/* Mobiles     */
+@media (max-width: 720px){
+    
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    
+    #header{
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .menu-mobile{
+        display: block;
+    }
+
+
+    #nav{
+        display: block;
+    }
+    #nav > li  {
+        display: block;
+    }
+
+    #nav >li:first-child{
+        display: inline;
+    }
+
+    #nav .sub-nav {
+        display: none;
+        position: initial;
+        background-color: #fff;
+    }
+    #nav .sub-nav a {
+        color: #fff;
+        line-height: 38px;
+        padding: 4px 41px;
+        line-height: 38px;
+        background-color: #797979;
+        display: block;
+    }
+    
+    #content .member-img{
+        width: 60%;
+    }
+
+   #contact .contact-form{
+       margin-top: 16px;
+   }
+}
+
+
